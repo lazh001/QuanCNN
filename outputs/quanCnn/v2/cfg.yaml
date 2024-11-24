@@ -1,0 +1,32 @@
+experiment_name: quanCnn
+output_dir: outputs
+eval: false
+seed: 42
+model:
+  class_name: model.quanCNN.quanCnnObject
+  params:
+    num_classes: 10
+    pretrained: ./outputs/basicCnn/v1/checkpoints/epoch=11-val_loss_epoch=0.0915-val_acc_epoch=0.9731.ckpt
+trainer:
+  accelerator: gpu
+  max_epochs: 12
+checkpoint:
+  path: null
+dataset:
+  name: MNIST
+  data_dir: ./dataset
+  num_classes: 10
+  batch_size: 32
+  workers: 1
+optimizer:
+  class_name: SGD
+  params:
+    lr: 0.01
+    momentum: 0.9
+    weight_decay: 0.0001
+lr_scheduler:
+  class_name: StepLR
+  params:
+    step_size: 4
+    gamma: 0.1
+quan: null

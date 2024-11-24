@@ -1,0 +1,66 @@
+experiment_name: 'quan-resnet50-imagenet-v2'
+output_dir: 'outputs'
+eval: false
+seed: 42
+
+model:
+  class_name: 'model.customed.resnet50'
+  params:
+    num_classes: 1000
+    pretrained: '/lamport/makkapakka/hzheng/neuralzipModified_v2/outputs/resnet50-imagenet/v1/checkpoints/epoch=94-val_loss_epoch=1.4398-val_acc_epoch=0.6522.ckpt'
+  
+trainer:
+  accelerator: "gpu"
+  devices: [0, 1, 2, 3, 4]
+  max_epochs: 100
+
+checkpoint:
+  path:
+
+dataset:
+  name: imagenet
+  data_dir: './Dataset/imagenet'
+  num_classes: 1000
+  batch_size: 64
+  workers: 10
+
+optimizer:
+  class_name: 'SGD'
+  params:
+    lr: 0.01
+    momentum: 0.9
+    weight_decay: 0.0001
+
+lr_scheduler:
+  class_name: 'StepLR'
+  params:
+    step_size: 30
+    gamma: 0.1
+
+quan:
+  act: # (default for activations of all quantized modules)
+    class_name: 'LearnedStepQuantizer'
+    params:
+      bit: 3
+      all_positive: true
+  weight: # (default for weights all modules)
+    class_name: 'LearnedStepQuantizer'
+    params:
+      bit: 3
+  excepts:
+    conv1:
+      act:
+        params:
+          bit: 8
+          all_positive: false
+      weight:
+        params:
+          bit: 3
+    fc:
+      act:
+        params:
+          bit: 8
+          all_positive: true
+      weight:
+        params:
+          bit: 3

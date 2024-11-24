@@ -1,0 +1,38 @@
+experiment_name: 'basicCnn'
+output_dir: 'outputs'
+eval: false
+seed: 42
+
+model:
+  class_name: 'model.basicCNN.basicCnnObject'
+  params:
+    num_classes: 10
+  
+trainer:
+  accelerator: "gpu"
+  max_epochs: 12
+
+checkpoint:
+  path:
+
+dataset:
+  name: MNIST
+  data_dir: './dataset'
+  num_classes: 10
+  batch_size: 32
+  workers: 1
+
+optimizer:
+  class_name: 'SGD'
+  params:
+    lr: 0.01
+    momentum: 0.9
+    weight_decay: 0.0001
+
+lr_scheduler:
+  class_name: 'StepLR'
+  params:
+    step_size: 4
+    gamma: 0.1
+
+quan:

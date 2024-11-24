@@ -1,0 +1,570 @@
+2024-11-22 21:03:20,378 - lightning - INFO  - Output logs & checkpoints in: D:\Projects\class\zxg\QuanCNN\QuanCNN\outputs\basicCnn\v1
+2024-11-22 21:03:20,394 - lightning - INFO  - The final experiment setup is dumped as: ./cfg.yaml
+2024-11-22 21:03:20,395 - lightning - INFO  - Create model "<class 'model.basicCNN.basicCNN'>". You can view its graph using TensorBoard.
+2024-11-22 21:03:20,395 - lightning - INFO  - No quantizer is injected into the model.
+2024-11-22 21:03:20,395 - lightning - INFO  - Prepare the "MNIST" dataset from: ./dataset
+2024-11-22 21:03:20,395 - lightning - INFO  - Tensorboard logger initialized in: ./tb_runs
+2024-11-22 21:03:20,395 - lightning - INFO  - Checkpoints of the best 3 models as well as the last one will be saved to: ./checkpoints
+2024-11-22 21:03:20,450 - lightning - INFO  - The model is distributed to 1 GPU nodes
+2024-11-22 21:03:20,450 - lightning - INFO  - Training process begins.
+2024-11-22 21:03:20,693 - lightning - INFO  - Validate set sanity check begins.
+2024-11-22 21:03:22,919 - lightning - INFO  - Current Sanity Checking dataloader index: 0
+2024-11-22 21:03:23,725 - lightning - INFO  - Validation (Epoch 0, Batch 2 / 375, 1.30s/it) => val_loss_step: 2.295375  val_acc_step: 12.500%  val_acc5_step: 56.250%  
+2024-11-22 21:03:23,725 - lightning - INFO  - Validate set sanity check ends.
+2024-11-22 21:03:23,725 - lightning - INFO  - Trainer fit begins ... Current epoch: 0, batch: 0
+2024-11-22 21:03:23,725 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 0, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:03:25,950 - lightning - INFO  - Training (Epoch 0, Batch 50 / 1500, 0.04s/it) => acc: 15.625%  
+2024-11-22 21:03:26,134 - lightning - INFO  - Training (Epoch 0, Batch 100 / 1500, 0.02s/it) => acc: 65.625%  
+2024-11-22 21:03:26,288 - lightning - INFO  - Training (Epoch 0, Batch 150 / 1500, 0.02s/it) => acc: 87.500%  
+2024-11-22 21:03:26,465 - lightning - INFO  - Training (Epoch 0, Batch 200 / 1500, 0.01s/it) => acc: 87.500%  
+2024-11-22 21:03:26,675 - lightning - INFO  - Training (Epoch 0, Batch 250 / 1500, 0.01s/it) => acc: 87.500%  
+2024-11-22 21:03:26,862 - lightning - INFO  - Training (Epoch 0, Batch 300 / 1500, 0.01s/it) => acc: 84.375%  
+2024-11-22 21:03:27,068 - lightning - INFO  - Training (Epoch 0, Batch 350 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:27,262 - lightning - INFO  - Training (Epoch 0, Batch 400 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:27,438 - lightning - INFO  - Training (Epoch 0, Batch 450 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:27,614 - lightning - INFO  - Training (Epoch 0, Batch 500 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:27,792 - lightning - INFO  - Training (Epoch 0, Batch 550 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:27,960 - lightning - INFO  - Training (Epoch 0, Batch 600 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:28,115 - lightning - INFO  - Training (Epoch 0, Batch 650 / 1500, 0.01s/it) => acc: 81.250%  
+2024-11-22 21:03:28,299 - lightning - INFO  - Training (Epoch 0, Batch 700 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:28,487 - lightning - INFO  - Training (Epoch 0, Batch 750 / 1500, 0.01s/it) => acc: 84.375%  
+2024-11-22 21:03:28,671 - lightning - INFO  - Training (Epoch 0, Batch 800 / 1500, 0.01s/it) => acc: 84.375%  
+2024-11-22 21:03:28,844 - lightning - INFO  - Training (Epoch 0, Batch 850 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:29,018 - lightning - INFO  - Training (Epoch 0, Batch 900 / 1500, 0.01s/it) => acc: 87.500%  
+2024-11-22 21:03:29,198 - lightning - INFO  - Training (Epoch 0, Batch 950 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:29,389 - lightning - INFO  - Training (Epoch 0, Batch 1000 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:29,562 - lightning - INFO  - Training (Epoch 0, Batch 1050 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:29,722 - lightning - INFO  - Training (Epoch 0, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:29,869 - lightning - INFO  - Training (Epoch 0, Batch 1150 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:30,046 - lightning - INFO  - Training (Epoch 0, Batch 1200 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:30,208 - lightning - INFO  - Training (Epoch 0, Batch 1250 / 1500, 0.01s/it) => acc: 87.500%  
+2024-11-22 21:03:30,392 - lightning - INFO  - Training (Epoch 0, Batch 1300 / 1500, 0.01s/it) => acc: 84.375%  
+2024-11-22 21:03:30,546 - lightning - INFO  - Training (Epoch 0, Batch 1350 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:30,701 - lightning - INFO  - Training (Epoch 0, Batch 1400 / 1500, 0.00s/it) => acc: 93.750%  
+2024-11-22 21:03:30,861 - lightning - INFO  - Training (Epoch 0, Batch 1450 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:03:31,045 - lightning - INFO  - Training (Epoch 0, Batch 1500 / 1500, 0.00s/it) => acc: 84.375%  
+2024-11-22 21:03:31,296 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 0, including 375 batches
+2024-11-22 21:03:33,143 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:03:33,505 - lightning - INFO  - Validation (Epoch 0, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.272511  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:03:33,832 - lightning - INFO  - Validation (Epoch 0, Batch 100 / 375, 0.03s/it) => val_loss_step: 0.046506  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:03:34,172 - lightning - INFO  - Validation (Epoch 0, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.058314  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:03:34,505 - lightning - INFO  - Validation (Epoch 0, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.091562  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:03:34,869 - lightning - INFO  - Validation (Epoch 0, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.095306  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:03:35,214 - lightning - INFO  - Validation (Epoch 0, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.469529  val_acc_step: 84.375%  val_acc5_step: 100.000%  
+2024-11-22 21:03:35,561 - lightning - INFO  - Validation (Epoch 0, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.093379  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:03:35,731 - lightning - INFO  - Validation (Epoch 0, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.188088  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:03:35,735 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.176637  val_acc_epoch: 95.075%  val_acc5_epoch: 99.825%  
+2024-11-22 21:03:35,742 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 1, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:03:37,899 - lightning - INFO  - Training (Epoch 1, Batch 50 / 1500, 0.04s/it) => acc: 93.750%  
+2024-11-22 21:03:38,086 - lightning - INFO  - Training (Epoch 1, Batch 100 / 1500, 0.02s/it) => acc: 93.750%  
+2024-11-22 21:03:38,262 - lightning - INFO  - Training (Epoch 1, Batch 150 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:03:38,445 - lightning - INFO  - Training (Epoch 1, Batch 200 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:38,634 - lightning - INFO  - Training (Epoch 1, Batch 250 / 1500, 0.01s/it) => acc: 87.500%  
+2024-11-22 21:03:38,805 - lightning - INFO  - Training (Epoch 1, Batch 300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:38,992 - lightning - INFO  - Training (Epoch 1, Batch 350 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:39,178 - lightning - INFO  - Training (Epoch 1, Batch 400 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:39,366 - lightning - INFO  - Training (Epoch 1, Batch 450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:39,548 - lightning - INFO  - Training (Epoch 1, Batch 500 / 1500, 0.01s/it) => acc: 87.500%  
+2024-11-22 21:03:39,729 - lightning - INFO  - Training (Epoch 1, Batch 550 / 1500, 0.01s/it) => acc: 87.500%  
+2024-11-22 21:03:39,954 - lightning - INFO  - Training (Epoch 1, Batch 600 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:40,159 - lightning - INFO  - Training (Epoch 1, Batch 650 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:40,341 - lightning - INFO  - Training (Epoch 1, Batch 700 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:40,530 - lightning - INFO  - Training (Epoch 1, Batch 750 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:40,711 - lightning - INFO  - Training (Epoch 1, Batch 800 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:40,894 - lightning - INFO  - Training (Epoch 1, Batch 850 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:41,066 - lightning - INFO  - Training (Epoch 1, Batch 900 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:41,245 - lightning - INFO  - Training (Epoch 1, Batch 950 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:41,450 - lightning - INFO  - Training (Epoch 1, Batch 1000 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:41,650 - lightning - INFO  - Training (Epoch 1, Batch 1050 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:41,832 - lightning - INFO  - Training (Epoch 1, Batch 1100 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:42,013 - lightning - INFO  - Training (Epoch 1, Batch 1150 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:42,202 - lightning - INFO  - Training (Epoch 1, Batch 1200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:42,371 - lightning - INFO  - Training (Epoch 1, Batch 1250 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:42,535 - lightning - INFO  - Training (Epoch 1, Batch 1300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:42,690 - lightning - INFO  - Training (Epoch 1, Batch 1350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:42,912 - lightning - INFO  - Training (Epoch 1, Batch 1400 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:43,122 - lightning - INFO  - Training (Epoch 1, Batch 1450 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:43,311 - lightning - INFO  - Training (Epoch 1, Batch 1500 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:43,583 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 1, including 375 batches
+2024-11-22 21:03:45,238 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:03:45,609 - lightning - INFO  - Validation (Epoch 1, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.252913  val_acc_step: 90.625%  val_acc5_step: 100.000%  
+2024-11-22 21:03:45,968 - lightning - INFO  - Validation (Epoch 1, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.034074  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:03:46,294 - lightning - INFO  - Validation (Epoch 1, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.009556  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:03:46,623 - lightning - INFO  - Validation (Epoch 1, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.007868  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:03:46,979 - lightning - INFO  - Validation (Epoch 1, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.102474  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:03:47,347 - lightning - INFO  - Validation (Epoch 1, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.187680  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:03:47,722 - lightning - INFO  - Validation (Epoch 1, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.060083  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:03:47,912 - lightning - INFO  - Validation (Epoch 1, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.206030  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:03:47,918 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.123439  val_acc_epoch: 96.425%  val_acc5_epoch: 99.933%  
+2024-11-22 21:03:47,929 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 2, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:03:50,154 - lightning - INFO  - Training (Epoch 2, Batch 50 / 1500, 0.04s/it) => acc: 96.875%  
+2024-11-22 21:03:50,375 - lightning - INFO  - Training (Epoch 2, Batch 100 / 1500, 0.02s/it) => acc: 93.750%  
+2024-11-22 21:03:50,606 - lightning - INFO  - Training (Epoch 2, Batch 150 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:03:50,818 - lightning - INFO  - Training (Epoch 2, Batch 200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:51,040 - lightning - INFO  - Training (Epoch 2, Batch 250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:51,246 - lightning - INFO  - Training (Epoch 2, Batch 300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:51,445 - lightning - INFO  - Training (Epoch 2, Batch 350 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:51,644 - lightning - INFO  - Training (Epoch 2, Batch 400 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:51,833 - lightning - INFO  - Training (Epoch 2, Batch 450 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:52,026 - lightning - INFO  - Training (Epoch 2, Batch 500 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:52,206 - lightning - INFO  - Training (Epoch 2, Batch 550 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:52,403 - lightning - INFO  - Training (Epoch 2, Batch 600 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:52,625 - lightning - INFO  - Training (Epoch 2, Batch 650 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:52,855 - lightning - INFO  - Training (Epoch 2, Batch 700 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:53,062 - lightning - INFO  - Training (Epoch 2, Batch 750 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:53,262 - lightning - INFO  - Training (Epoch 2, Batch 800 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:53,480 - lightning - INFO  - Training (Epoch 2, Batch 850 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:53,681 - lightning - INFO  - Training (Epoch 2, Batch 900 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:53,887 - lightning - INFO  - Training (Epoch 2, Batch 950 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:54,065 - lightning - INFO  - Training (Epoch 2, Batch 1000 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:03:54,222 - lightning - INFO  - Training (Epoch 2, Batch 1050 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:54,405 - lightning - INFO  - Training (Epoch 2, Batch 1100 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:54,565 - lightning - INFO  - Training (Epoch 2, Batch 1150 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:54,735 - lightning - INFO  - Training (Epoch 2, Batch 1200 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:54,894 - lightning - INFO  - Training (Epoch 2, Batch 1250 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:55,065 - lightning - INFO  - Training (Epoch 2, Batch 1300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:55,224 - lightning - INFO  - Training (Epoch 2, Batch 1350 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:03:55,378 - lightning - INFO  - Training (Epoch 2, Batch 1400 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:03:55,537 - lightning - INFO  - Training (Epoch 2, Batch 1450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:55,698 - lightning - INFO  - Training (Epoch 2, Batch 1500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:03:55,950 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 2, including 375 batches
+2024-11-22 21:03:57,653 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:03:57,995 - lightning - INFO  - Validation (Epoch 2, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.147391  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:03:58,321 - lightning - INFO  - Validation (Epoch 2, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.055167  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:03:58,648 - lightning - INFO  - Validation (Epoch 2, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.007532  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:03:58,984 - lightning - INFO  - Validation (Epoch 2, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.026921  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:03:59,381 - lightning - INFO  - Validation (Epoch 2, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.050035  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:03:59,740 - lightning - INFO  - Validation (Epoch 2, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.164983  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:04:00,092 - lightning - INFO  - Validation (Epoch 2, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.088643  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:00,258 - lightning - INFO  - Validation (Epoch 2, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.185041  val_acc_step: 90.625%  val_acc5_step: 100.000%  
+2024-11-22 21:04:00,264 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.128496  val_acc_epoch: 96.092%  val_acc5_epoch: 99.908%  
+2024-11-22 21:04:00,275 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 3, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:04:02,493 - lightning - INFO  - Training (Epoch 3, Batch 50 / 1500, 0.04s/it) => acc: 87.500%  
+2024-11-22 21:04:02,659 - lightning - INFO  - Training (Epoch 3, Batch 100 / 1500, 0.02s/it) => acc: 90.625%  
+2024-11-22 21:04:02,815 - lightning - INFO  - Training (Epoch 3, Batch 150 / 1500, 0.02s/it) => acc: 93.750%  
+2024-11-22 21:04:02,974 - lightning - INFO  - Training (Epoch 3, Batch 200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:03,159 - lightning - INFO  - Training (Epoch 3, Batch 250 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:03,344 - lightning - INFO  - Training (Epoch 3, Batch 300 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:03,529 - lightning - INFO  - Training (Epoch 3, Batch 350 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:03,711 - lightning - INFO  - Training (Epoch 3, Batch 400 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:03,893 - lightning - INFO  - Training (Epoch 3, Batch 450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:04,087 - lightning - INFO  - Training (Epoch 3, Batch 500 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:04,287 - lightning - INFO  - Training (Epoch 3, Batch 550 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:04,487 - lightning - INFO  - Training (Epoch 3, Batch 600 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:04,658 - lightning - INFO  - Training (Epoch 3, Batch 650 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:04,875 - lightning - INFO  - Training (Epoch 3, Batch 700 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:05,069 - lightning - INFO  - Training (Epoch 3, Batch 750 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:05,262 - lightning - INFO  - Training (Epoch 3, Batch 800 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:04:05,462 - lightning - INFO  - Training (Epoch 3, Batch 850 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:05,651 - lightning - INFO  - Training (Epoch 3, Batch 900 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:05,850 - lightning - INFO  - Training (Epoch 3, Batch 950 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:06,042 - lightning - INFO  - Training (Epoch 3, Batch 1000 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:06,213 - lightning - INFO  - Training (Epoch 3, Batch 1050 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:06,382 - lightning - INFO  - Training (Epoch 3, Batch 1100 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:06,555 - lightning - INFO  - Training (Epoch 3, Batch 1150 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:06,759 - lightning - INFO  - Training (Epoch 3, Batch 1200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:06,941 - lightning - INFO  - Training (Epoch 3, Batch 1250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:07,124 - lightning - INFO  - Training (Epoch 3, Batch 1300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:07,284 - lightning - INFO  - Training (Epoch 3, Batch 1350 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:07,458 - lightning - INFO  - Training (Epoch 3, Batch 1400 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:07,639 - lightning - INFO  - Training (Epoch 3, Batch 1450 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:07,822 - lightning - INFO  - Training (Epoch 3, Batch 1500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:08,094 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 3, including 375 batches
+2024-11-22 21:04:09,887 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:04:10,230 - lightning - INFO  - Validation (Epoch 3, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.180988  val_acc_step: 90.625%  val_acc5_step: 100.000%  
+2024-11-22 21:04:10,555 - lightning - INFO  - Validation (Epoch 3, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.015165  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:10,877 - lightning - INFO  - Validation (Epoch 3, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.007621  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:11,179 - lightning - INFO  - Validation (Epoch 3, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.009073  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:11,496 - lightning - INFO  - Validation (Epoch 3, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.047173  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:11,773 - lightning - INFO  - Validation (Epoch 3, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.133673  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:12,058 - lightning - INFO  - Validation (Epoch 3, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.065819  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:12,206 - lightning - INFO  - Validation (Epoch 3, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.223473  val_acc_step: 90.625%  val_acc5_step: 100.000%  
+2024-11-22 21:04:12,211 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.105660  val_acc_epoch: 96.750%  val_acc5_epoch: 99.942%  
+2024-11-22 21:04:12,216 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 4, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:04:14,369 - lightning - INFO  - Training (Epoch 4, Batch 50 / 1500, 0.04s/it) => acc: 100.000%  
+2024-11-22 21:04:14,571 - lightning - INFO  - Training (Epoch 4, Batch 100 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:04:14,796 - lightning - INFO  - Training (Epoch 4, Batch 150 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:04:14,967 - lightning - INFO  - Training (Epoch 4, Batch 200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:15,137 - lightning - INFO  - Training (Epoch 4, Batch 250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:15,335 - lightning - INFO  - Training (Epoch 4, Batch 300 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:15,523 - lightning - INFO  - Training (Epoch 4, Batch 350 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:15,711 - lightning - INFO  - Training (Epoch 4, Batch 400 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:15,899 - lightning - INFO  - Training (Epoch 4, Batch 450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:16,098 - lightning - INFO  - Training (Epoch 4, Batch 500 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:16,299 - lightning - INFO  - Training (Epoch 4, Batch 550 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:16,500 - lightning - INFO  - Training (Epoch 4, Batch 600 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:16,698 - lightning - INFO  - Training (Epoch 4, Batch 650 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:16,903 - lightning - INFO  - Training (Epoch 4, Batch 700 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:17,113 - lightning - INFO  - Training (Epoch 4, Batch 750 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:17,308 - lightning - INFO  - Training (Epoch 4, Batch 800 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:17,481 - lightning - INFO  - Training (Epoch 4, Batch 850 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:17,687 - lightning - INFO  - Training (Epoch 4, Batch 900 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:17,893 - lightning - INFO  - Training (Epoch 4, Batch 950 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:18,075 - lightning - INFO  - Training (Epoch 4, Batch 1000 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:18,248 - lightning - INFO  - Training (Epoch 4, Batch 1050 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:18,442 - lightning - INFO  - Training (Epoch 4, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:18,627 - lightning - INFO  - Training (Epoch 4, Batch 1150 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:18,826 - lightning - INFO  - Training (Epoch 4, Batch 1200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:19,002 - lightning - INFO  - Training (Epoch 4, Batch 1250 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:19,171 - lightning - INFO  - Training (Epoch 4, Batch 1300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:19,348 - lightning - INFO  - Training (Epoch 4, Batch 1350 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:19,517 - lightning - INFO  - Training (Epoch 4, Batch 1400 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:19,668 - lightning - INFO  - Training (Epoch 4, Batch 1450 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:19,842 - lightning - INFO  - Training (Epoch 4, Batch 1500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:20,090 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 4, including 375 batches
+2024-11-22 21:04:21,796 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:04:22,160 - lightning - INFO  - Validation (Epoch 4, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.168944  val_acc_step: 87.500%  val_acc5_step: 100.000%  
+2024-11-22 21:04:22,529 - lightning - INFO  - Validation (Epoch 4, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.020156  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:22,831 - lightning - INFO  - Validation (Epoch 4, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.006193  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:23,141 - lightning - INFO  - Validation (Epoch 4, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.003170  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:23,438 - lightning - INFO  - Validation (Epoch 4, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.029286  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:23,749 - lightning - INFO  - Validation (Epoch 4, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.155818  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:24,021 - lightning - INFO  - Validation (Epoch 4, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.042220  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:24,164 - lightning - INFO  - Validation (Epoch 4, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.209025  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:24,171 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.099883  val_acc_epoch: 97.042%  val_acc5_epoch: 99.950%  
+2024-11-22 21:04:24,178 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 5, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:04:26,324 - lightning - INFO  - Training (Epoch 5, Batch 50 / 1500, 0.04s/it) => acc: 96.875%  
+2024-11-22 21:04:26,540 - lightning - INFO  - Training (Epoch 5, Batch 100 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:04:26,742 - lightning - INFO  - Training (Epoch 5, Batch 150 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:04:26,914 - lightning - INFO  - Training (Epoch 5, Batch 200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:27,078 - lightning - INFO  - Training (Epoch 5, Batch 250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:27,264 - lightning - INFO  - Training (Epoch 5, Batch 300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:27,441 - lightning - INFO  - Training (Epoch 5, Batch 350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:27,608 - lightning - INFO  - Training (Epoch 5, Batch 400 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:27,786 - lightning - INFO  - Training (Epoch 5, Batch 450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:27,979 - lightning - INFO  - Training (Epoch 5, Batch 500 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:28,144 - lightning - INFO  - Training (Epoch 5, Batch 550 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:28,321 - lightning - INFO  - Training (Epoch 5, Batch 600 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:28,502 - lightning - INFO  - Training (Epoch 5, Batch 650 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:28,697 - lightning - INFO  - Training (Epoch 5, Batch 700 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:28,867 - lightning - INFO  - Training (Epoch 5, Batch 750 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:29,041 - lightning - INFO  - Training (Epoch 5, Batch 800 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:29,221 - lightning - INFO  - Training (Epoch 5, Batch 850 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:29,370 - lightning - INFO  - Training (Epoch 5, Batch 900 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:29,541 - lightning - INFO  - Training (Epoch 5, Batch 950 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:29,711 - lightning - INFO  - Training (Epoch 5, Batch 1000 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:29,884 - lightning - INFO  - Training (Epoch 5, Batch 1050 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:04:30,043 - lightning - INFO  - Training (Epoch 5, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:30,200 - lightning - INFO  - Training (Epoch 5, Batch 1150 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:30,361 - lightning - INFO  - Training (Epoch 5, Batch 1200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:30,535 - lightning - INFO  - Training (Epoch 5, Batch 1250 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:30,682 - lightning - INFO  - Training (Epoch 5, Batch 1300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:30,844 - lightning - INFO  - Training (Epoch 5, Batch 1350 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:04:31,004 - lightning - INFO  - Training (Epoch 5, Batch 1400 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:04:31,177 - lightning - INFO  - Training (Epoch 5, Batch 1450 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:04:31,342 - lightning - INFO  - Training (Epoch 5, Batch 1500 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:04:31,584 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 5, including 375 batches
+2024-11-22 21:04:33,283 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:04:33,632 - lightning - INFO  - Validation (Epoch 5, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.190453  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:04:33,981 - lightning - INFO  - Validation (Epoch 5, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.015340  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:34,300 - lightning - INFO  - Validation (Epoch 5, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.003642  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:34,628 - lightning - INFO  - Validation (Epoch 5, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.003033  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:34,941 - lightning - INFO  - Validation (Epoch 5, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.035221  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:35,266 - lightning - INFO  - Validation (Epoch 5, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.124125  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:35,552 - lightning - INFO  - Validation (Epoch 5, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.039721  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:35,723 - lightning - INFO  - Validation (Epoch 5, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.145829  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:35,723 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.094836  val_acc_epoch: 97.267%  val_acc5_epoch: 99.958%  
+2024-11-22 21:04:35,740 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 6, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:04:37,887 - lightning - INFO  - Training (Epoch 6, Batch 50 / 1500, 0.04s/it) => acc: 96.875%  
+2024-11-22 21:04:38,069 - lightning - INFO  - Training (Epoch 6, Batch 100 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:04:38,229 - lightning - INFO  - Training (Epoch 6, Batch 150 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:04:38,395 - lightning - INFO  - Training (Epoch 6, Batch 200 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:38,545 - lightning - INFO  - Training (Epoch 6, Batch 250 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:38,741 - lightning - INFO  - Training (Epoch 6, Batch 300 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:04:38,919 - lightning - INFO  - Training (Epoch 6, Batch 350 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:39,074 - lightning - INFO  - Training (Epoch 6, Batch 400 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:39,254 - lightning - INFO  - Training (Epoch 6, Batch 450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:39,438 - lightning - INFO  - Training (Epoch 6, Batch 500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:39,604 - lightning - INFO  - Training (Epoch 6, Batch 550 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:39,796 - lightning - INFO  - Training (Epoch 6, Batch 600 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:39,967 - lightning - INFO  - Training (Epoch 6, Batch 650 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:40,132 - lightning - INFO  - Training (Epoch 6, Batch 700 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:04:40,297 - lightning - INFO  - Training (Epoch 6, Batch 750 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:40,470 - lightning - INFO  - Training (Epoch 6, Batch 800 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:40,644 - lightning - INFO  - Training (Epoch 6, Batch 850 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:40,839 - lightning - INFO  - Training (Epoch 6, Batch 900 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:41,021 - lightning - INFO  - Training (Epoch 6, Batch 950 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:41,205 - lightning - INFO  - Training (Epoch 6, Batch 1000 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:41,372 - lightning - INFO  - Training (Epoch 6, Batch 1050 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:41,569 - lightning - INFO  - Training (Epoch 6, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:41,753 - lightning - INFO  - Training (Epoch 6, Batch 1150 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:41,903 - lightning - INFO  - Training (Epoch 6, Batch 1200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:42,083 - lightning - INFO  - Training (Epoch 6, Batch 1250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:42,245 - lightning - INFO  - Training (Epoch 6, Batch 1300 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:42,420 - lightning - INFO  - Training (Epoch 6, Batch 1350 / 1500, 0.00s/it) => acc: 93.750%  
+2024-11-22 21:04:42,589 - lightning - INFO  - Training (Epoch 6, Batch 1400 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:04:42,760 - lightning - INFO  - Training (Epoch 6, Batch 1450 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:04:42,935 - lightning - INFO  - Training (Epoch 6, Batch 1500 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:04:43,156 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 6, including 375 batches
+2024-11-22 21:04:44,945 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:04:45,311 - lightning - INFO  - Validation (Epoch 6, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.176798  val_acc_step: 87.500%  val_acc5_step: 100.000%  
+2024-11-22 21:04:45,675 - lightning - INFO  - Validation (Epoch 6, Batch 100 / 375, 0.03s/it) => val_loss_step: 0.018789  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:46,008 - lightning - INFO  - Validation (Epoch 6, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.005011  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:46,336 - lightning - INFO  - Validation (Epoch 6, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.003199  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:46,669 - lightning - INFO  - Validation (Epoch 6, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.032047  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:47,056 - lightning - INFO  - Validation (Epoch 6, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.136432  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:47,411 - lightning - INFO  - Validation (Epoch 6, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.038125  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:47,586 - lightning - INFO  - Validation (Epoch 6, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.182362  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:04:47,590 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.096015  val_acc_epoch: 97.150%  val_acc5_epoch: 99.967%  
+2024-11-22 21:04:47,597 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 7, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:04:49,717 - lightning - INFO  - Training (Epoch 7, Batch 50 / 1500, 0.04s/it) => acc: 100.000%  
+2024-11-22 21:04:49,917 - lightning - INFO  - Training (Epoch 7, Batch 100 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:04:50,100 - lightning - INFO  - Training (Epoch 7, Batch 150 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:04:50,295 - lightning - INFO  - Training (Epoch 7, Batch 200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:50,481 - lightning - INFO  - Training (Epoch 7, Batch 250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:50,675 - lightning - INFO  - Training (Epoch 7, Batch 300 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:50,863 - lightning - INFO  - Training (Epoch 7, Batch 350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:51,044 - lightning - INFO  - Training (Epoch 7, Batch 400 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:51,230 - lightning - INFO  - Training (Epoch 7, Batch 450 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:51,411 - lightning - INFO  - Training (Epoch 7, Batch 500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:51,583 - lightning - INFO  - Training (Epoch 7, Batch 550 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:51,751 - lightning - INFO  - Training (Epoch 7, Batch 600 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:51,946 - lightning - INFO  - Training (Epoch 7, Batch 650 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:52,129 - lightning - INFO  - Training (Epoch 7, Batch 700 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:52,305 - lightning - INFO  - Training (Epoch 7, Batch 750 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:52,475 - lightning - INFO  - Training (Epoch 7, Batch 800 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:52,633 - lightning - INFO  - Training (Epoch 7, Batch 850 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:04:52,814 - lightning - INFO  - Training (Epoch 7, Batch 900 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:52,985 - lightning - INFO  - Training (Epoch 7, Batch 950 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:53,158 - lightning - INFO  - Training (Epoch 7, Batch 1000 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:53,336 - lightning - INFO  - Training (Epoch 7, Batch 1050 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:53,503 - lightning - INFO  - Training (Epoch 7, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:04:53,661 - lightning - INFO  - Training (Epoch 7, Batch 1150 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:04:53,833 - lightning - INFO  - Training (Epoch 7, Batch 1200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:54,020 - lightning - INFO  - Training (Epoch 7, Batch 1250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:54,190 - lightning - INFO  - Training (Epoch 7, Batch 1300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:04:54,347 - lightning - INFO  - Training (Epoch 7, Batch 1350 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:04:54,523 - lightning - INFO  - Training (Epoch 7, Batch 1400 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:04:54,704 - lightning - INFO  - Training (Epoch 7, Batch 1450 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:04:54,873 - lightning - INFO  - Training (Epoch 7, Batch 1500 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:04:55,142 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 7, including 375 batches
+2024-11-22 21:04:56,824 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:04:57,181 - lightning - INFO  - Validation (Epoch 7, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.184558  val_acc_step: 90.625%  val_acc5_step: 100.000%  
+2024-11-22 21:04:57,508 - lightning - INFO  - Validation (Epoch 7, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.019642  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:57,834 - lightning - INFO  - Validation (Epoch 7, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.003629  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:58,148 - lightning - INFO  - Validation (Epoch 7, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.002301  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:58,447 - lightning - INFO  - Validation (Epoch 7, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.030704  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:58,762 - lightning - INFO  - Validation (Epoch 7, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.106633  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:04:59,093 - lightning - INFO  - Validation (Epoch 7, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.032463  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:04:59,256 - lightning - INFO  - Validation (Epoch 7, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.176480  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:04:59,263 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.092725  val_acc_epoch: 97.250%  val_acc5_epoch: 99.967%  
+2024-11-22 21:04:59,269 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 8, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:05:01,566 - lightning - INFO  - Training (Epoch 8, Batch 50 / 1500, 0.05s/it) => acc: 96.875%  
+2024-11-22 21:05:01,772 - lightning - INFO  - Training (Epoch 8, Batch 100 / 1500, 0.03s/it) => acc: 93.750%  
+2024-11-22 21:05:01,953 - lightning - INFO  - Training (Epoch 8, Batch 150 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:05:02,123 - lightning - INFO  - Training (Epoch 8, Batch 200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:02,290 - lightning - INFO  - Training (Epoch 8, Batch 250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:02,463 - lightning - INFO  - Training (Epoch 8, Batch 300 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:02,629 - lightning - INFO  - Training (Epoch 8, Batch 350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:02,817 - lightning - INFO  - Training (Epoch 8, Batch 400 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:02,990 - lightning - INFO  - Training (Epoch 8, Batch 450 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:03,184 - lightning - INFO  - Training (Epoch 8, Batch 500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:03,372 - lightning - INFO  - Training (Epoch 8, Batch 550 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:03,553 - lightning - INFO  - Training (Epoch 8, Batch 600 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:03,730 - lightning - INFO  - Training (Epoch 8, Batch 650 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:03,904 - lightning - INFO  - Training (Epoch 8, Batch 700 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:04,079 - lightning - INFO  - Training (Epoch 8, Batch 750 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:04,237 - lightning - INFO  - Training (Epoch 8, Batch 800 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:04,399 - lightning - INFO  - Training (Epoch 8, Batch 850 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:04,579 - lightning - INFO  - Training (Epoch 8, Batch 900 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:04,735 - lightning - INFO  - Training (Epoch 8, Batch 950 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:04,908 - lightning - INFO  - Training (Epoch 8, Batch 1000 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:05,098 - lightning - INFO  - Training (Epoch 8, Batch 1050 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:05,259 - lightning - INFO  - Training (Epoch 8, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:05,436 - lightning - INFO  - Training (Epoch 8, Batch 1150 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:05,606 - lightning - INFO  - Training (Epoch 8, Batch 1200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:05,763 - lightning - INFO  - Training (Epoch 8, Batch 1250 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:05,922 - lightning - INFO  - Training (Epoch 8, Batch 1300 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:06,092 - lightning - INFO  - Training (Epoch 8, Batch 1350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:06,283 - lightning - INFO  - Training (Epoch 8, Batch 1400 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:06,462 - lightning - INFO  - Training (Epoch 8, Batch 1450 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:05:06,636 - lightning - INFO  - Training (Epoch 8, Batch 1500 / 1500, 0.00s/it) => acc: 90.625%  
+2024-11-22 21:05:06,860 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 8, including 375 batches
+2024-11-22 21:05:08,556 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:05:08,907 - lightning - INFO  - Validation (Epoch 8, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.178668  val_acc_step: 90.625%  val_acc5_step: 100.000%  
+2024-11-22 21:05:09,237 - lightning - INFO  - Validation (Epoch 8, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.016047  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:09,554 - lightning - INFO  - Validation (Epoch 8, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.003498  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:09,882 - lightning - INFO  - Validation (Epoch 8, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.002274  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:10,223 - lightning - INFO  - Validation (Epoch 8, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.029234  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:10,522 - lightning - INFO  - Validation (Epoch 8, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.110594  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:05:10,842 - lightning - INFO  - Validation (Epoch 8, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.032812  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:10,980 - lightning - INFO  - Validation (Epoch 8, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.165894  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:10,996 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.092072  val_acc_epoch: 97.292%  val_acc5_epoch: 99.967%  
+2024-11-22 21:05:10,996 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 9, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:05:13,159 - lightning - INFO  - Training (Epoch 9, Batch 50 / 1500, 0.04s/it) => acc: 96.875%  
+2024-11-22 21:05:13,357 - lightning - INFO  - Training (Epoch 9, Batch 100 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:05:13,520 - lightning - INFO  - Training (Epoch 9, Batch 150 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:05:13,700 - lightning - INFO  - Training (Epoch 9, Batch 200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:13,857 - lightning - INFO  - Training (Epoch 9, Batch 250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:14,043 - lightning - INFO  - Training (Epoch 9, Batch 300 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:14,227 - lightning - INFO  - Training (Epoch 9, Batch 350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:14,408 - lightning - INFO  - Training (Epoch 9, Batch 400 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:14,573 - lightning - INFO  - Training (Epoch 9, Batch 450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:14,774 - lightning - INFO  - Training (Epoch 9, Batch 500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:14,957 - lightning - INFO  - Training (Epoch 9, Batch 550 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:15,144 - lightning - INFO  - Training (Epoch 9, Batch 600 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:15,322 - lightning - INFO  - Training (Epoch 9, Batch 650 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:15,528 - lightning - INFO  - Training (Epoch 9, Batch 700 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:15,708 - lightning - INFO  - Training (Epoch 9, Batch 750 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:15,900 - lightning - INFO  - Training (Epoch 9, Batch 800 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:16,082 - lightning - INFO  - Training (Epoch 9, Batch 850 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:16,282 - lightning - INFO  - Training (Epoch 9, Batch 900 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:16,445 - lightning - INFO  - Training (Epoch 9, Batch 950 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:16,633 - lightning - INFO  - Training (Epoch 9, Batch 1000 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:16,792 - lightning - INFO  - Training (Epoch 9, Batch 1050 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:16,984 - lightning - INFO  - Training (Epoch 9, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:17,150 - lightning - INFO  - Training (Epoch 9, Batch 1150 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:17,312 - lightning - INFO  - Training (Epoch 9, Batch 1200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:17,471 - lightning - INFO  - Training (Epoch 9, Batch 1250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:17,640 - lightning - INFO  - Training (Epoch 9, Batch 1300 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:17,808 - lightning - INFO  - Training (Epoch 9, Batch 1350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:17,963 - lightning - INFO  - Training (Epoch 9, Batch 1400 / 1500, 0.00s/it) => acc: 87.500%  
+2024-11-22 21:05:18,141 - lightning - INFO  - Training (Epoch 9, Batch 1450 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:05:18,285 - lightning - INFO  - Training (Epoch 9, Batch 1500 / 1500, 0.00s/it) => acc: 96.875%  
+2024-11-22 21:05:18,532 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 9, including 375 batches
+2024-11-22 21:05:20,202 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:05:20,547 - lightning - INFO  - Validation (Epoch 9, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.178262  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:20,868 - lightning - INFO  - Validation (Epoch 9, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.015762  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:21,208 - lightning - INFO  - Validation (Epoch 9, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.003104  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:21,523 - lightning - INFO  - Validation (Epoch 9, Batch 200 / 375, 0.01s/it) => val_loss_step: 0.002445  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:21,841 - lightning - INFO  - Validation (Epoch 9, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.027942  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:22,118 - lightning - INFO  - Validation (Epoch 9, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.107924  val_acc_step: 96.875%  val_acc5_step: 100.000%  
+2024-11-22 21:05:22,456 - lightning - INFO  - Validation (Epoch 9, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.031983  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:22,602 - lightning - INFO  - Validation (Epoch 9, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.165422  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:22,615 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.091853  val_acc_epoch: 97.317%  val_acc5_epoch: 99.958%  
+2024-11-22 21:05:22,615 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 10, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:05:24,784 - lightning - INFO  - Training (Epoch 10, Batch 50 / 1500, 0.04s/it) => acc: 96.875%  
+2024-11-22 21:05:24,966 - lightning - INFO  - Training (Epoch 10, Batch 100 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:05:25,127 - lightning - INFO  - Training (Epoch 10, Batch 150 / 1500, 0.02s/it) => acc: 100.000%  
+2024-11-22 21:05:25,278 - lightning - INFO  - Training (Epoch 10, Batch 200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:25,448 - lightning - INFO  - Training (Epoch 10, Batch 250 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:25,646 - lightning - INFO  - Training (Epoch 10, Batch 300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:25,809 - lightning - INFO  - Training (Epoch 10, Batch 350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:26,038 - lightning - INFO  - Training (Epoch 10, Batch 400 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:26,257 - lightning - INFO  - Training (Epoch 10, Batch 450 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:05:26,481 - lightning - INFO  - Training (Epoch 10, Batch 500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:26,748 - lightning - INFO  - Training (Epoch 10, Batch 550 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:26,956 - lightning - INFO  - Training (Epoch 10, Batch 600 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:27,191 - lightning - INFO  - Training (Epoch 10, Batch 650 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:27,403 - lightning - INFO  - Training (Epoch 10, Batch 700 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:27,602 - lightning - INFO  - Training (Epoch 10, Batch 750 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:27,815 - lightning - INFO  - Training (Epoch 10, Batch 800 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:27,999 - lightning - INFO  - Training (Epoch 10, Batch 850 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:28,190 - lightning - INFO  - Training (Epoch 10, Batch 900 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:28,391 - lightning - INFO  - Training (Epoch 10, Batch 950 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:28,579 - lightning - INFO  - Training (Epoch 10, Batch 1000 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:28,743 - lightning - INFO  - Training (Epoch 10, Batch 1050 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:28,921 - lightning - INFO  - Training (Epoch 10, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:29,118 - lightning - INFO  - Training (Epoch 10, Batch 1150 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:29,299 - lightning - INFO  - Training (Epoch 10, Batch 1200 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:29,474 - lightning - INFO  - Training (Epoch 10, Batch 1250 / 1500, 0.01s/it) => acc: 90.625%  
+2024-11-22 21:05:29,657 - lightning - INFO  - Training (Epoch 10, Batch 1300 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:29,820 - lightning - INFO  - Training (Epoch 10, Batch 1350 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:29,990 - lightning - INFO  - Training (Epoch 10, Batch 1400 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:30,149 - lightning - INFO  - Training (Epoch 10, Batch 1450 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:30,312 - lightning - INFO  - Training (Epoch 10, Batch 1500 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:30,559 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 10, including 375 batches
+2024-11-22 21:05:32,217 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:05:32,578 - lightning - INFO  - Validation (Epoch 10, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.178226  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:32,908 - lightning - INFO  - Validation (Epoch 10, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.016017  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:33,245 - lightning - INFO  - Validation (Epoch 10, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.003304  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:33,572 - lightning - INFO  - Validation (Epoch 10, Batch 200 / 375, 0.02s/it) => val_loss_step: 0.002282  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:33,865 - lightning - INFO  - Validation (Epoch 10, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.029049  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:34,175 - lightning - INFO  - Validation (Epoch 10, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.113717  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:34,457 - lightning - INFO  - Validation (Epoch 10, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.032479  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:34,616 - lightning - INFO  - Validation (Epoch 10, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.159033  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:34,616 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.091583  val_acc_epoch: 97.308%  val_acc5_epoch: 99.967%  
+2024-11-22 21:05:34,616 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Epoch 11, including 1875 batches (train: 1500, val: 375) <<< <<< <<< <<<
+2024-11-22 21:05:36,787 - lightning - INFO  - Training (Epoch 11, Batch 50 / 1500, 0.04s/it) => acc: 100.000%  
+2024-11-22 21:05:36,944 - lightning - INFO  - Training (Epoch 11, Batch 100 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:05:37,114 - lightning - INFO  - Training (Epoch 11, Batch 150 / 1500, 0.02s/it) => acc: 96.875%  
+2024-11-22 21:05:37,276 - lightning - INFO  - Training (Epoch 11, Batch 200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:37,472 - lightning - INFO  - Training (Epoch 11, Batch 250 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:37,626 - lightning - INFO  - Training (Epoch 11, Batch 300 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:37,813 - lightning - INFO  - Training (Epoch 11, Batch 350 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:37,992 - lightning - INFO  - Training (Epoch 11, Batch 400 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:38,148 - lightning - INFO  - Training (Epoch 11, Batch 450 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:38,337 - lightning - INFO  - Training (Epoch 11, Batch 500 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:38,522 - lightning - INFO  - Training (Epoch 11, Batch 550 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:38,701 - lightning - INFO  - Training (Epoch 11, Batch 600 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:38,875 - lightning - INFO  - Training (Epoch 11, Batch 650 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:39,045 - lightning - INFO  - Training (Epoch 11, Batch 700 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:39,220 - lightning - INFO  - Training (Epoch 11, Batch 750 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:39,395 - lightning - INFO  - Training (Epoch 11, Batch 800 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:39,572 - lightning - INFO  - Training (Epoch 11, Batch 850 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:39,736 - lightning - INFO  - Training (Epoch 11, Batch 900 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:39,901 - lightning - INFO  - Training (Epoch 11, Batch 950 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:40,050 - lightning - INFO  - Training (Epoch 11, Batch 1000 / 1500, 0.01s/it) => acc: 93.750%  
+2024-11-22 21:05:40,208 - lightning - INFO  - Training (Epoch 11, Batch 1050 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:40,368 - lightning - INFO  - Training (Epoch 11, Batch 1100 / 1500, 0.01s/it) => acc: 100.000%  
+2024-11-22 21:05:40,518 - lightning - INFO  - Training (Epoch 11, Batch 1150 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:40,687 - lightning - INFO  - Training (Epoch 11, Batch 1200 / 1500, 0.01s/it) => acc: 96.875%  
+2024-11-22 21:05:40,851 - lightning - INFO  - Training (Epoch 11, Batch 1250 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:05:41,032 - lightning - INFO  - Training (Epoch 11, Batch 1300 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:05:41,203 - lightning - INFO  - Training (Epoch 11, Batch 1350 / 1500, 0.00s/it) => acc: 93.750%  
+2024-11-22 21:05:41,385 - lightning - INFO  - Training (Epoch 11, Batch 1400 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:05:41,560 - lightning - INFO  - Training (Epoch 11, Batch 1450 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:05:41,726 - lightning - INFO  - Training (Epoch 11, Batch 1500 / 1500, 0.00s/it) => acc: 100.000%  
+2024-11-22 21:05:41,951 - lightning - INFO  - 
+                   >>> Validation step begins ... Epoch 11, including 375 batches
+2024-11-22 21:05:43,552 - lightning - INFO  - Current Validation dataloader index: 0
+2024-11-22 21:05:43,920 - lightning - INFO  - Validation (Epoch 11, Batch 50 / 375, 0.04s/it) => val_loss_step: 0.177387  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:44,261 - lightning - INFO  - Validation (Epoch 11, Batch 100 / 375, 0.02s/it) => val_loss_step: 0.015886  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:44,584 - lightning - INFO  - Validation (Epoch 11, Batch 150 / 375, 0.02s/it) => val_loss_step: 0.003194  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:44,896 - lightning - INFO  - Validation (Epoch 11, Batch 200 / 375, 0.01s/it) => val_loss_step: 0.002248  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:45,225 - lightning - INFO  - Validation (Epoch 11, Batch 250 / 375, 0.01s/it) => val_loss_step: 0.028359  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:45,584 - lightning - INFO  - Validation (Epoch 11, Batch 300 / 375, 0.01s/it) => val_loss_step: 0.110016  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:45,882 - lightning - INFO  - Validation (Epoch 11, Batch 350 / 375, 0.01s/it) => val_loss_step: 0.032562  val_acc_step: 100.000%  val_acc5_step: 100.000%  
+2024-11-22 21:05:46,022 - lightning - INFO  - Validation (Epoch 11, Batch 375 / 375, 0.01s/it) => val_loss_step: 0.156167  val_acc_step: 93.750%  val_acc5_step: 100.000%  
+2024-11-22 21:05:46,039 - lightning - INFO  - >>> Validate ends => val_loss_epoch: 0.091515  val_acc_epoch: 97.308%  val_acc5_epoch: 99.967%  
+2024-11-22 21:05:46,039 - lightning - INFO  - Trainer fit ends.
+2024-11-22 21:05:46,554 - lightning - INFO  - Evaluate the best trained model.
+2024-11-22 21:05:46,602 - lightning - INFO  - 
+
+                   >>> >>> >>> >>> Testing <<< <<< <<< <<<
+2024-11-22 21:05:48,372 - lightning - INFO  - Current Testing dataloader index: 0
+2024-11-22 21:05:48,731 - lightning - INFO  - Testing (Batch 50 / 313, 0.04s/it) => test_acc_step: 100.000%  test_acc5_step: 100.000%  test_loss_step: 0.029390  
+2024-11-22 21:05:49,036 - lightning - INFO  - Testing (Batch 100 / 313, 0.02s/it) => test_acc_step: 100.000%  test_acc5_step: 100.000%  test_loss_step: 0.022348  
+2024-11-22 21:05:49,315 - lightning - INFO  - Testing (Batch 150 / 313, 0.02s/it) => test_acc_step: 100.000%  test_acc5_step: 100.000%  test_loss_step: 0.009610  
+2024-11-22 21:05:49,710 - lightning - INFO  - Testing (Batch 200 / 313, 0.02s/it) => test_acc_step: 100.000%  test_acc5_step: 100.000%  test_loss_step: 0.033832  
+2024-11-22 21:05:50,159 - lightning - INFO  - Testing (Batch 250 / 313, 0.01s/it) => test_acc_step: 96.875%  test_acc5_step: 100.000%  test_loss_step: 0.051184  
+2024-11-22 21:05:50,604 - lightning - INFO  - Testing (Batch 300 / 313, 0.01s/it) => test_acc_step: 100.000%  test_acc5_step: 100.000%  test_loss_step: 0.028248  
+2024-11-22 21:05:50,689 - lightning - INFO  - Testing (Batch 313 / 313, 0.01s/it) => test_acc_step: 100.000%  test_acc5_step: 100.000%  test_loss_step: 0.000507  
+2024-11-22 21:05:50,689 - lightning - INFO  - >>> Testing ends => test_acc_epoch: 97.540%  test_acc5_epoch: 99.960%  test_loss_epoch: 0.075929  
+
+2024-11-22 21:05:50,918 - lightning - INFO  - Program completed successfully. Exiting...
