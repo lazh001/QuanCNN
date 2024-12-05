@@ -2,6 +2,8 @@
 
 C++的接口如下
 
+其中：`data_t` 8位 `acc_t` 16位
+
 ```c++
 void conv_accel(
     data_t *In,    // Input feature map
@@ -55,3 +57,4 @@ conv_accel(In, W, Out, R, C, CHIn, CHOut, K, stride);
 ```
 
 详细代码参考`Testbench.cpp`
+
